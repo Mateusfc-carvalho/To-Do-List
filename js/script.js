@@ -11,7 +11,7 @@
     
     // Adiciona o texto da tarefa
     tarefaElemento.innerHTML = `
-        <p>${tarefaTexto}</p>
+        <p class="txt-resultado">${tarefaTexto}</p>
         <div class="div-editar-deletar">
             <button onclick="editarTarefa(this)">
                 <img src="../imgs/editar.png" class="img-editar" title="Editar" alt="Editar">
